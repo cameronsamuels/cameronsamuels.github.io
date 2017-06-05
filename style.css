@@ -82,6 +82,7 @@ a:hover { text-decoration: underline; }
 .main-content img { max-width: 100%; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal;color:#606c71 }
 .main-content h1 { color:#159957 !important;text-align:center }
+.main-content h2 { text-align: center}
 .main-content h1:before { content: '>' }
 .main-content h1:after { content: '<' }
 .main-content p { margin-bottom: 1em; }
