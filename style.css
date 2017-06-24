@@ -10,10 +10,10 @@ a:active, a:hover { outline: 0 }
 body { margin: 0; font-family: "Open Sans", sans-serif; font-size: 16px; line-height: 1.5; color: #666 }
 a { color: #27c; text-decoration: none }
 a:hover { text-decoration: underline }
-[h] {font-size: 3rem;margin: 0;color: #fff; background:#085 linear-gradient(20deg, #27c, #085) }
+[h] {padding: 5rem;font-size: 3rem;margin: 0;color: #fff; background:#085 linear-gradient(20deg, #27c, #085) }
 @media screen and (min-width: 64em) { div { max-width: 64rem; padding: 2rem 6rem }}
-@media screen and (min-width: 42em) and (max-width: 64em) { div { padding: 2rem 4rem}[h] { padding: 3rem 4rem; } }
-@media screen and (max-width: 42em) {[h] { font-size:2rem;padding: 2rem 1rem } div { padding: 2rem 1rem} }
+@media screen and (min-width: 42em) and (max-width: 64em) { div { padding: 2rem }[h] { padding: 3rem } }
+@media screen and (max-width: 42em) {[h] { font-size:2rem;padding: 2rem 1rem } div { padding: 1rem} }
 div { word-wrap: break-word; font-size: 1rem }
 div :first-child { margin-top: 0 }
 h1, h2 { margin-bottom: 1rem; font-weight: normal }
@@ -21,5 +21,5 @@ div h1 { color:#085 }
 div h1:before { content: '>' }
 div h1:after { content: '<' }
 p { margin-bottom: 1em;text-align: justify }
-footer { font-size: 1rem;color: #999;padding-top: 2rem; border-top: solid 1px #eee }
+footer { font-size: 1em;color: #999;padding-top: 2rem; border-top: solid 1px #eee }
 footer,h1,h2{text-align:center}
