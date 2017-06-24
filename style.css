@@ -6,8 +6,7 @@
 html { -webkit-text-size-adjust: 100%}
 a { background-color: transparent; }
 a:active, a:hover { outline: 0 }
-* { text-align-last: center }
-body {font-family: "Open Sans", sans-serif; line-height: 1.5; color: #666 }
+body {text-align:center ;font-family: "Open Sans", sans-serif; line-height: 1.5; color: #666 }
 a { color: #27c; text-decoration: none }
 a:hover { text-decoration: underline }
 [h] {padding: 5rem;font-size: 3rem;color: #fff; background:#085 linear-gradient(20deg, #27c, #085) }
@@ -24,4 +23,3 @@ div h1:after { content: '<' }
 p { text-align: justify }
 p,body,[h]{margin: 0}
 footer {font-size: 1em;color: #999;margin-top: 2rem;padding-top: 1rem;border-top: solid 1px #eee}
-p:first-of-type,footer,h1,h2{text-align:center}
