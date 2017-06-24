@@ -25,5 +25,4 @@ a:hover { text-decoration: underline }
 .main-content h1:after { content: '<' }
 .main-content p { margin-bottom: 1em;text-align: justify;text-align-last: center }
 .main-content hr { height: 2px; padding: 0; margin: 1rem 0; background-color: #eff0f1; border: 0; }
-.site-footer { padding-top: 2rem; margin-top: 2rem; border-top: solid 1px #eff0f1; }
-.site-footer-credits { color: #819198 }
+.site-footer { color: #819198;padding-top: 2rem; margin-top: 2rem; border-top: solid 1px #eff0f1; }
