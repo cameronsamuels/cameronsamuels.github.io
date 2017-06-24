@@ -11,7 +11,7 @@ body { margin: 0; font-family: "Open Sans", sans-serif; font-size: 16px; line-he
 a { color: #1e6bb8; text-decoration: none }
 a:hover { text-decoration: underline }
 [h] {font-size: 3.25rem;margin: 0;color: #fff; background:#159957 linear-gradient(20deg, #155799, #159957) }
-@media screen and (min-width: 64em) {[h] { padding: 5rem 6rem; } div { max-width: 64rem; padding: 2rem 6rem; margin: 0 auto; font-size: 1.1rem } }
+@media screen and (min-width: 64em) {[h] { padding: 5rem 6rem; } div { max-width: 64rem; padding: 2rem 6rem; font-size: 1.1rem } }
 @media screen and (min-width: 42em) and (max-width: 64em) { div { padding: 2rem 4rem; font-size: 1.1rem }[h] { padding: 3rem 4rem; font-size: 2.25rem } }
 @media screen and (max-width: 42em) {[h] { font-size: 1.75rem;padding: 2rem 1rem; } div { padding: 2rem 1rem; font-size: 1rem} }
 div { word-wrap: break-word }
