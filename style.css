@@ -20,6 +20,5 @@ h2{margin:0.3rem}
 div h1 { padding-top:0.7rem;margin-bottom:0;color:#085;border-top:1px #eee solid }
 div h1:before { content: '>' }
 div h1:after { content: '<' }
-p { text-align: justify }
 p,body,[h]{margin: 0}
 footer {font-size: 1em;color: #999;margin-top: 2rem;padding-top: 1rem;border-top: solid 1px #eee}
