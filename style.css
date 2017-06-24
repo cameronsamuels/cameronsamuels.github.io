@@ -7,7 +7,6 @@ html { -ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%}
 a { background-color: transparent; }
 a:active, a:hover { outline: 0 }
 h1 { font-size: 2em; margin: 0.67em 0 }
-hr { box-sizing: content-box; height: 0 }
 * { box-sizing: border-box }
 body { padding: 0; margin: 0; font-family: "Open Sans", sans-serif; font-size: 16px; line-height: 1.5; color: #606c71 }
 a { color: #1e6bb8; text-decoration: none }
@@ -18,10 +17,9 @@ a:hover { text-decoration: underline }
 @media screen and (max-width: 42em) {footer { font-size: 0.9rem; }.page-header { padding: 2rem 1rem; } .main-content { padding: 2rem 1rem; font-size: 1rem; } .page-header { font-size: 1.75rem; } }
 .main-content { word-wrap: break-word }
 .main-content :first-child { margin-top: 0 }
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal;color:#606c71; text-align: center }
+.main-content h1, h2 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal;color:#606c71; text-align: center }
 .main-content h1 { color:#159957 !important }
 .main-content h1:before { content: '>' }
 .main-content h1:after { content: '<' }
-.main-content p { margin-bottom: 1em;text-align: justify;text-align-last: center }
-.main-content hr { height: 2px; padding: 0; margin: 1rem 0; background-color: #eff0f1; border: 0; }
+p { margin-bottom: 1em;text-align: justify;text-align-last: center }
 footer { color: #819198;padding-top: 2rem; margin-top: 2rem; border-top: solid 1px #eff0f1; }
