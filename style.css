@@ -6,20 +6,21 @@
 html { -ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%}
 a { background-color: transparent; }
 a:active, a:hover { outline: 0 }
-h1 { font-size: 2em; margin: 0.67em 0 }
-* { box-sizing: border-box;text-align-last: center }
+h1 { font-size: 2em }
+* { text-align-last: center }
 body { padding: 0; margin: 0; font-family: "Open Sans", sans-serif; font-size: 16px; line-height: 1.5; color: #606c71 }
 a { color: #1e6bb8; text-decoration: none }
 a:hover { text-decoration: underline }
-.page-header {margin: 0;color: #fff; background:#159957 linear-gradient(120deg, #155799, #159957) }
+.page-header {margin: 0;color: #fff; background:#159957 linear-gradient(20deg, #155799, #159957) }
 @media screen and (min-width: 64em) {footer { font-size: 1rem; }.page-header { padding: 5rem 6rem; } .main-content { max-width: 64rem; padding: 2rem 6rem; margin: 0 auto; font-size: 1.1rem }.page-header { font-size: 3.25rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { footer { font-size: 1rem; }.main-content { padding: 2rem 4rem; font-size: 1.1rem }.page-header { padding: 3rem 4rem }.page-header { font-size: 2.25rem } }
 @media screen and (max-width: 42em) {footer { font-size: 0.9rem; }.page-header { padding: 2rem 1rem; } .main-content { padding: 2rem 1rem; font-size: 1rem; } .page-header { font-size: 1.75rem; } }
 .main-content { word-wrap: break-word }
 .main-content :first-child { margin-top: 0 }
-.main-content h1, h2 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal;color:#606c71 }
-.main-content h1 { color:#159957 !important }
+.main-content h1, h2 { margin-bottom: 1rem; font-weight: normal }
+.main-content h1 { color:#159957 }
 .main-content h1:before { content: '>' }
 .main-content h1:after { content: '<' }
 p { margin-bottom: 1em;text-align: justify }
 footer { color: #819198;padding-top: 2rem; margin-top: 2rem; border-top: solid 1px #eff0f1; }
+footer,h1,h2{text-align:center}
