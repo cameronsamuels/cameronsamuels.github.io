@@ -22,4 +22,4 @@ div h1:before { content: '>' }
 div h1:after { content: '<' }
 p { margin-bottom: 1em;text-align: justify }
 footer { font-size: 1em;color: #999;padding-top: 2rem; border-top: solid 1px #eee }
-footer,h1,h2{text-align:center}
+p:first-of-type,footer,h1,h2{text-align:center}
