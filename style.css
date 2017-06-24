@@ -21,5 +21,5 @@ div h1 { color:#085;border-top:1px #eee solid;padding-top:1rem }
 div h1:before { content: '>' }
 div h1:after { content: '<' }
 p { margin: 0;text-align: justify }
-footer { font-size: 1em;color: #999;padding-top: 2rem; border-top: solid 1px #eee }
+footer { font-size: 1em;color: #999;margin-top: 2rem;padding-top: 2rem; border-top: solid 1px #eee }
 p:first-of-type,footer,h1,h2{text-align:center}
