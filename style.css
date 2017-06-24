@@ -7,19 +7,19 @@ html { -webkit-text-size-adjust: 100%}
 a { background-color: transparent; }
 a:active, a:hover { outline: 0 }
 * { text-align-last: center }
-body { margin: 0; font-family: "Open Sans", sans-serif; font-size: 16px; line-height: 1.5; color: #606c71 }
+body { margin: 0; font-family: "Open Sans", sans-serif; font-size: 16px; line-height: 1.5; color: #666 }
 a { color: #27c; text-decoration: none }
 a:hover { text-decoration: underline }
 [h] {font-size: 3.25rem;margin: 0;color: #fff; background:#085 linear-gradient(20deg, #27c, #085) }
-@media screen and (min-width: 64em) {[h] { padding: 5rem 6rem; } div { max-width: 64rem; padding: 2rem 6rem; font-size: 1.1rem } }
-@media screen and (min-width: 42em) and (max-width: 64em) { div { padding: 2rem 4rem; font-size: 1.1rem }[h] { padding: 3rem 4rem; font-size: 2.25rem } }
-@media screen and (max-width: 42em) {[h] { font-size: 1.75rem;padding: 2rem 1rem; } div { padding: 2rem 1rem; font-size: 1rem} }
-div { word-wrap: break-word }
+@media screen and (min-width: 64em) {[h] { padding: 5rem 6rem; } div { max-width: 64rem; padding: 2rem 6rem }}
+@media screen and (min-width: 42em) and (max-width: 64em) { div { padding: 2rem 4rem}[h] { padding: 3rem 4rem; font-size: 2.25rem } }
+@media screen and (max-width: 42em) {[h] { font-size: 1.75rem;padding: 2rem 1rem; } div { padding: 2rem 1rem} }
+div { word-wrap: break-word; font-size: 1.1rem }
 div :first-child { margin-top: 0 }
 h1, h2 { margin-bottom: 1rem; font-weight: normal }
 div h1 { color:#085 }
 div h1:before { content: '>' }
 div h1:after { content: '<' }
 p { margin-bottom: 1em;text-align: justify }
-footer { font-size: 1rem;color: #999;padding-top: 2rem; margin-top: 2rem; border-top: solid 1px #eee; }
+footer { font-size: 1rem;color: #999;padding-top: 2rem; margin-top: 2rem; border-top: solid 1px #eee }
 footer,h1,h2{text-align:center}
