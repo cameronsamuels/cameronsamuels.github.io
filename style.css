@@ -12,7 +12,6 @@ a:hover { text-decoration: underline }
 [h] {padding: 5rem;font-size: 3rem;color: #fff; background:#085 linear-gradient(20deg, #27c, #085) }
 @media screen and (min-width: 64em) { main { max-width: 64rem; padding: 2rem 25% }}
 @media screen and (min-width: 42em) and (max-width: 64em) { main { padding: 1rem 15% }[h] { padding: 3rem } }
-@media screen and (min-width: 42em){{display:inline}}
 @media screen and (max-width: 42em) {[h] { font-size:2rem;padding: 2rem 0 } main { padding: 6%} }
 @media screen and (min-width: 42em){div{display:inline-block;width:49%}h1+div{border-right:1px #eee solid}}
 main { word-wrap: break-word; font-size: 1rem }
