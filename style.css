@@ -16,9 +16,10 @@ a:hover { text-decoration: underline }
 @media screen and (min-width: 520px){div{display:inline-block;width:49%}h1+div{border-right:1px #eee solid}}
 main { word-wrap: break-word }
 main :first-child { margin-top: 0 }
-h1, h2 { font-weight: normal }
-main h1 { padding-top:0.7rem;margin-bottom:0;color:#085;border-top:1px #eee solid }
+* { font-weight: normal }
+main h1 { padding-top:0.7rem;margin-bottom:0;color:#085}
 main h1:before { content: '>' }
 main h1:after { content: '<' }
 p,body,[h],h2{margin: 0}
-footer {color: #999;margin-top: 2em;padding-top: 1em;border-top: solid 1px #eee}
+footer {color: #999;margin-top: 2em;padding-top: 1em}
+main h1,footer{border-top: solid 1px #eee}
