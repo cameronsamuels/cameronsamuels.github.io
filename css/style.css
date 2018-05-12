@@ -112,6 +112,7 @@ body>div:nth-of-type(5) {
   border-top: 8px #24292e solid;
   border-bottom: 8px #24292e solid;
   font-weight: bold;
+  cursor: pointer;
 }
 body>div:nth-of-type(5) a {
   padding: 0 2px;
@@ -166,10 +167,15 @@ body>div:nth-of-type(6) h3 {
   margin: 0 0 20px;
   padding: 5px;
 }
+body>div:nth-of-type(6) h3 a {
+  padding: 2px 4px;
+  color: inherit;
+  border-radius: 12px;
+}
 body>div:nth-of-type(6) div {
   margin-bottom: 10px;
 }
-body>div:nth-of-type(6) a {
+body>div:nth-of-type(6)>div a {
   display: inline-block;
   width: 120px;
   padding: 15px;
@@ -276,6 +282,7 @@ body>div:nth-of-type(8) {
   border-top: 8px #24292e solid;
   border-bottom: 8px #24292e solid;
   font-weight: bold;
+  cursor: pointer;
 }
 body>div:nth-of-type(8) a {
   padding: 0 2px;
