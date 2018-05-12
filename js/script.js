@@ -4,3 +4,6 @@ fidgetIcon.addEventListener("touchstart", function(e) { e.preventDefault() });
 fidgetIcon.addEventListener("dragstart", function(e) { e.preventDefault() });
 
 document.querySelector("body>div:nth-of-type(7) img").addEventListener("dragstart", function(e) { e.preventDefault() });
+
+document.querySelector("body>div:nth-of-type(5)").addEventListener("click", function() { location = "https://git.io/vpZxN" });
+document.querySelector("body>div:nth-of-type(8)").addEventListener("click", function() { location = "https://bocracy.com" });
