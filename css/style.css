@@ -349,6 +349,13 @@ footer {
   body>div:nth-of-type(4) h1 {
     font-size: 26px;
   }
+  body>div:nth-of-type(4) section {
+    display: block;
+  }
+  body>div:nth-of-type(4) section strong,
+  body>div:nth-of-type(4) section span {
+    margin: 0 auto;
+  }
   
   body>div:nth-of-type(5) h3,
   body>div:nth-of-type(8) h3 {
