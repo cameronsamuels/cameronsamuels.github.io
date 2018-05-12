@@ -56,7 +56,8 @@ body>div:nth-of-type(8) img {
   max-height: 80%;
 }
 
-body>div:nth-of-type(3) {
+body>div:nth-of-type(3),
+body>div:nth-of-type(12) {
   background: #24292e;
   color: #c8c9cb;
   font-size: 35px;
@@ -65,14 +66,16 @@ body>div:nth-of-type(3) {
   user-select: none;
   -webkit-user-select: none;
 }
-body>div:nth-of-type(3) a img {
+body>div:nth-of-type(3) a img,
+body>div:nth-of-type(12) a img {
   height: 38px;
   background: #c8c9cb;
   border: 2px #c8c9cb solid;
   border-radius: 38px;
   vertical-align: middle;
 }
-body>div:nth-of-type(3) a img:hover {
+body>div:nth-of-type(3) a img:hover,
+body>div:nth-of-type(12) a img:hover {
   background: #86898b;
   border-color: #86898b;
 }
@@ -149,25 +152,21 @@ body>div:nth-of-type(6) {
   text-align: center;
   border-bottom: 8px #222 solid;
 }
-body>div:nth-of-type(6)>h2 {
+body>div:nth-of-type(6)>h3 {
   padding: 8px;
+  background: #222;
+  color: #f0f0f0;
   border-radius: 50px;
 }
-body>div:nth-of-type(6)>h3 {
-  border-radius: 10px;
-}
-body>div:nth-of-type(6) h2 {
-  background: #222;
-  color: #f0f0f0;
-  padding: 5px;
-}
-body>div:nth-of-type(6) h3 {
-  background: #222;
-  color: #f0f0f0;
+body>div:nth-of-type(6)>p {
   margin: 0 0 20px;
-  padding: 5px;
+  padding: 6px;
+  background: #222;
+  color: #f0f0f0;
+  border-radius: 10px;
+  font-weight: bold;
 }
-body>div:nth-of-type(6) h3 a {
+body>div:nth-of-type(6)>p a {
   padding: 2px 4px;
   color: inherit;
   border-radius: 12px;
@@ -186,10 +185,10 @@ body>div:nth-of-type(6)>div a {
 body>div:nth-of-type(6) a:hover {
   background: #333;
 }
-body>div:nth-of-type(6) h4 {
+body>div:nth-of-type(6) div h4 {
   margin: 2px;
 }
-body>div:nth-of-type(6) p {
+body>div:nth-of-type(6) div p {
   width: 100%;
   margin: 0;
   text-align: center;
@@ -331,6 +330,7 @@ body>div:nth-of-type(9) p {
 }
 
 body>div:nth-of-type(10) {
+  border-bottom: 8px #222 solid;
   text-align: center;
 }
 body>div:nth-of-type(10) a {
@@ -353,10 +353,42 @@ body>div:nth-of-type(10) div section p {
   text-align: justify;
 }
 
+body>div:nth-of-type(11),
+body>div:nth-of-type(13) {
+  display: none;
+}
+
+body>div:nth-of-type(12) {
+  font-size: 30px;
+}
+  
+body>div:nth-of-type(14) {
+  border-top: 8px #222 solid;
+}
+body>div:nth-of-type(14) p {
+  width: 100%;
+}
+  
+body>div:nth-of-type(15) {
+  padding: 10px;
+  background: #f68428;
+  color: #0055a5;
+  border-top: 4px #222 solid;
+  border-bottom: 4px #222 solid;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+body>div:nth-of-type(15) img {
+  height: 40px;
+  margin: 0 2px;
+  vertical-align: middle;
+}
+
 footer {
   padding: 15px 0;
   color: #777;
-  border-top: 8px #222 solid;
   font-size: 18px;
   text-align: center;
 }
@@ -371,8 +403,7 @@ footer {
     font-size: 2rem;
   }
 }
-@media screen and (max-width: 670px) {
-  body>div:nth-of-type(2)>img,
+@media screen and (max-width: 567px) {
   body>div:nth-of-type(5)>a>img,
   body>div:nth-of-type(8)>a>img {
     display: none;
@@ -383,11 +414,25 @@ footer {
     width: 100%;
   }
   
+  body>div:nth-of-type(2)>h1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  body>div:nth-of-type(2)>h3 {
+    width: calc(100% - 45px);
+    margin-right: 0;
+    font-size: 18px;
+  }
+  body>div:nth-of-type(2)>img {
+    position: absolute;
+    top: 72px;
+    right: 10px;
+    width: 42px !important;
+    margin: 0;
+  }
+  
   body>div:nth-of-type(3) {
     font-size: 30px;
-  }
-  body>div:nth-of-type(3) a img {
-    font-size: 35px;
   }
   
   body>div:nth-of-type(4) h1 {
@@ -409,11 +454,23 @@ footer {
   body>div:nth-of-type(5)>p,
   body>div:nth-of-type(8)>h3,
   body>div:nth-of-type(8)>p {
-    margin-left: -5px;
+    margin: 5px 0;
+  }
+  body>div:nth-of-type(5)>p,
+  body>div:nth-of-type(8)>p {
+    box-sizing: border-box;
   }
   
+  body>div:nth-of-type(6)>h3 {
+    font-size: 18px;
+  }
+  body>div:nth-of-type(6)>p {
+    margin-bottom: 5px;
+    font-weight: normal;
+  }
   body>div:nth-of-type(6)>div>a {
     margin: 2px;
+    zoom: .8;
   }
   
   body>div:nth-of-type(7)>div>a {
@@ -431,6 +488,13 @@ footer {
   }
   body>div:nth-of-type(10) div section {
     width: 85%;
+  }
+  
+  body>div:nth-of-type(12) {
+    font-size: 25px;
+  }
+  body>div:nth-of-type(12) img {
+    height: 30px !important;
   }
   
   footer {
