@@ -10,8 +10,9 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   document.querySelector("body>div:nth-of-type(3)").addEventListener("click", function(){ window.location = "https://git.io/vQlve" });
-  document.querySelector("body>div:nth-of-type(5)").addEventListener("click", function(){ window.location = "https://git.io/vpZxN" });
-  document.querySelector("body>div:nth-of-type(8)").addEventListener("click", function(){ window.location = "https://bocracy.com" });
-  document.querySelector("body>div:nth-of-type(11)").addEventListener("click", function(){ window.location = "https://git.io/vQlve" });
+  document.querySelector("body>div:nth-of-type(5)").addEventListener("click", function(){ window.location = "https://git.io/vhvmo" });
+  document.querySelector("body>div:nth-of-type(6)").addEventListener("click", function(){ window.location = "https://git.io/vpZxN" });
+  document.querySelector("body>div:nth-of-type(9)").addEventListener("click", function(){ window.location = "https://bocracy.com" });
+  document.querySelector("body>div:nth-of-type(12)").addEventListener("click", function(){ window.location = "https://git.io/vQlve" });
   
 });
