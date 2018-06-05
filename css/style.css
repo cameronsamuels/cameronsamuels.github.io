@@ -5,6 +5,7 @@ html {
 body {
   max-width: 720px;
   margin: 0 auto;
+  background: #fff;
   color: #333;
   border-left: 12px #24292e solid;
   border-right: 12px #24292e solid;
