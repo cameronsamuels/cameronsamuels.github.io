@@ -90,6 +90,31 @@ body>div:nth-of-type(12) a img:hover {
   border-color: #86898b;
 }
 
+body>div:nth-of-type(2) a {
+  font-weight: bold;
+}
+body>div:nth-of-type(2) a:nth-of-type(1) {
+  color: #865;
+}
+body>div:nth-of-type(2) a:nth-of-type(1):hover {
+  background: #765;
+  color: #fff;
+}
+body>div:nth-of-type(2) a:nth-of-type(2) {
+  color: #00df75;
+}
+body>div:nth-of-type(2) a:nth-of-type(2):hover {
+  background: #00df75;
+  color: #fff;
+}
+body>div:nth-of-type(2) a:nth-of-type(3) {
+  color: #00aced;
+}
+body>div:nth-of-type(2) a:nth-of-type(3):hover {
+  background: #00aced;
+  color: #fff;
+}
+
 body>div:nth-of-type(4) {
   border-bottom: 8px #24292e solid;
   text-align: center;
@@ -430,8 +455,12 @@ body>div:nth-of-type(12) {
   font-size: 30px;
 }
 
+body>div:nth-of-type(13) {
+  text-align: center;
+}
 body>div:nth-of-type(13) p {
   width: 100%;
+  text-align: center;
 }
 body>div:nth-of-type(13) strong:before {
   content: "biz at cameronsamuels.com";
@@ -439,6 +468,7 @@ body>div:nth-of-type(13) strong:before {
 body>div:nth-of-type(13) strong:after {
   content: "biz@cameronsamuels.com";
   display: none;
+  padding: 0 3px;
 }
 body>div:nth-of-type(13) strong:hover:before {
   display: none;
