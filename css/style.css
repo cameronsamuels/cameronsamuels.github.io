@@ -496,10 +496,10 @@ body>div:nth-of-type(14) p {
   text-align: center;
 }
 body>div:nth-of-type(14) strong:before {
-  content: "biz at cameronsamuels.com";
+  content: "me at cameronsamuels.com";
 }
 body>div:nth-of-type(14) strong:after {
-  content: "biz@cameronsamuels.com";
+  content: "me@cameronsamuels.com";
   display: none;
   padding: 0 3px;
 }
