@@ -509,56 +509,6 @@ body>div:nth-of-type(14) strong:hover:before {
 body>div:nth-of-type(14) strong:hover:after {
   display: inline;
 }
-  
-body>div:nth-of-type(15) {
-  height: 63px;
-  padding: 0;
-  background: #f68428;
-  color: #0055a5;
-  border-top: 4px #222 solid;
-  border-bottom: 4px #222 solid;
-  font-size: 35px;
-  user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-}
-body>div:nth-of-type(15) p {
-  position: absolute;
-  top: 5px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  font-weight: bold;
-  text-align: center;
-  transition: .5s transform, .5s opacity;
-  -webkit-transition: .5s transform, .5s opacity;
-  -o-transition: .5s transform, .5s opacity;
-}
-body>div:nth-of-type(15) p:nth-of-type(2) {
-  transform: scale(0);
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  opacity: 0;
-}
-body>div:nth-of-type(15):hover p:first-of-type {
-  transform: scale(0);
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  opacity: 0;
-}
-body>div:nth-of-type(15):hover p:nth-of-type(2) {
-  transform: scale(1);
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  opacity: 1;
-}
-body>div:nth-of-type(15) img {
-  height: 40px;
-  margin: 0 2px;
-  vertical-align: middle;
-}
 
 footer {
   position: relative;
