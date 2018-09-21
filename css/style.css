@@ -132,7 +132,7 @@ main:first-of-type>footer:hover {
 
 @media all and (orientation: portrait) {
   main:first-of-type {
-    zoom: 90%;
+    zoom: 85%;
   }
 }
 
