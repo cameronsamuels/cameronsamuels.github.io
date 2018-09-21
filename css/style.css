@@ -112,6 +112,7 @@ main:first-of-type>p {
   margin: 0;
   font-size: 2vmin;
   font-weight: bold;
+  word-break: keep-all;
 }
 main:first-of-type>p>span {
   margin: 0 5px;
@@ -132,7 +133,16 @@ main:first-of-type>footer:hover {
 
 @media all and (orientation: portrait) {
   main:first-of-type {
-    zoom: 85%;
+    zoom: 90%;
+    height: 72vmin;
+  }
+  main:first-of-type>div>span {
+    width: 100%;
+    border-right: 0;
+  }
+  main:first-of-type>footer {
+    bottom: -6vmin;
+    font-size: 3vmin;
   }
 }
 
