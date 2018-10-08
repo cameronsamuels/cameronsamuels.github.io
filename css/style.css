@@ -169,6 +169,17 @@ body>div {
 #dev:target, #dev:target + main {
   display: block;
 }
+#memes + a {
+  display: none !important;
+}
+#memes + iframe {
+  display: none !important;
+  position: relative !important;
+  z-index: 3;
+}
+#memes:target, #memes:target + iframe {
+  display: block !important;
+}
 
 main:nth-of-type(2)>header {
   margin: 0;
@@ -368,7 +379,6 @@ main:nth-of-type(2)>div:nth-of-type(6) p {
 main:nth-of-type(2)>div:nth-of-type(6) a {
   display: inline-block;
   width: 120px;
-  margin: 2px 0;
   padding: 15px;
   background: #24292e;
   color: #f0f0f0;
