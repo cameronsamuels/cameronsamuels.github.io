@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'font';
+  src: url(beto.woff2) format('woff2');
+}
+
+beto {
+  display: inline-block;
+  position: fixed;
+  bottom: 5px;
+  padding: 2vmin;
+  background: #262628;
+  color: #fff;
+  font-family: font, helvetica, arial, sans-serif;
+  line-height: 1;
+  text-align: center;
+}
+
+beto:before {
+  content: "BETO";
+  display: block;
+  font-size: 6.5vmin;
+}
+
+beto:after {
+  content: "FOR AMERICA";
+  display: block;
+  font-size: 2.5vmin;
+}
+
+beto:not([align]) {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+beto[align="left"] {
+  left: 5px;
+}
+
+beto[align="right"] {
+  right: 5px;
+}
