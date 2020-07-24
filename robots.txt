@@ -2,3 +2,6 @@ User-agent: *
 Disallow: /support
 Disallow: /support/
 Disallow: /dicethrower/
+Disallow: /july/25
+Disallow: /july/25/
+Disallow: /july/25/index.html
